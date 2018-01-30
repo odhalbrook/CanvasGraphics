@@ -20,18 +20,12 @@ public class MyCanvas extends Canvas
     	public void paint(Graphics graphics) 
     		{
     		
-	        graphics.setColor(Color.red);
-	        graphics.fillOval(140, 130, 100, 100);
-	        
-	        graphics.setColor(Color.blue);
-	        graphics.drawRect(400, 500, 201, 101);
-	        graphics.setColor(Color.yellow);
-	        graphics.fillRect(401, 501, 200, 100);
-	        
-	        graphics.setColor(Color.black);
-	        graphics.drawLine(800, 0, 0, 600);
-	        graphics.drawLine(0, 0, 800, 600);
-	        
+    			graphics.setColor(Color.yellow);
+    			graphics.fillOval(50, 50, 600, 600);
+    			graphics.setColor(Color.BLACK);
+    			graphics.fillOval(200, 200, 50, 50);
+    			graphics.fillOval(450, 200, 50, 50);
+    			
     		}
     	
     		public void delay()
